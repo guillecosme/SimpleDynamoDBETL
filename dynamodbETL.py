@@ -13,8 +13,8 @@ GREEN = "\033[0;32m"
 #Conexão com o DynamoDB
 
 dynamoDBConnection = boto3.resource('dynamodb',   
-    aws_access_key_id = 'AKIA2CU42UIW2DRLQVX4',
-    aws_secret_access_key = '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',
+    aws_access_key_id = '',
+    aws_secret_access_key = '',
     region_name = 'sa-east-1'
 
 )
